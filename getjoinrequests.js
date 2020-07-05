@@ -2,7 +2,7 @@ const roblox = require('noblox.js');
 require('dotenv').config();
 
 exports.run = async (client, message, args) => {
-    let groupid = process.env.groupId;
+    let groupid = Number(process.env.groupId);
     try {
         let joins = await roblox.getJoinRequests(groupid);
         let joinsData = joins.data;
