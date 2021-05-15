@@ -16,3 +16,5 @@ exports.run = async (client, message, args) => {
     message.channel.send("*These users have active join requests!*");
     return message.channel.send(returnData);
 }
+
+NjQ4MTczNjAyNjU4ODQ0Njgy.XdqYtQ.RbTQCTFjFf58KluLjQ3W09emhx4
